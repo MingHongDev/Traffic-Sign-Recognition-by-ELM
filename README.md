@@ -23,6 +23,7 @@ The proposed method consists of two modules:
 2) A single classifier trained by extreme learning machine (ELM) algorithm
 
 ## How to Use it?
+
 Step 1. Run the create_test_data_in_HoGv.m and create_train_data_in_HoGv.m to create the database of feature.
 Step 2. Run the main.m to train the model and store the weighting of ELM (TSR_GTSRB.mat).
 Step 3. Load the weighting and then inference.
